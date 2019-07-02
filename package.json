@@ -1,0 +1,32 @@
+{
+  "name": "crud-practice-app",
+  "version": "1.0.0",
+  "description": "Simple CRUD React application with data table",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrenrector91/react-crud-table.git"
+  },
+  "author": "Darren Rector",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrenrector91/react-crud-table/issues"
+  },
+  "homepage": "https://github.com/darrenrector91/react-crud-table#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.18.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
